@@ -3,6 +3,9 @@
 #import "SDL";
 #import "GL";
 
+// Top level imports - isometric horizons stuff
+#load "iso_tile.jai";
+
 // Named imports
 Simp :: #import "Simp";
 
