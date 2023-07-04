@@ -4,6 +4,8 @@
 #import "GL";
 
 // Top level imports - isometric horizons stuff
+#load "shaders.jai";
+#load "camera.jai";
 #load "iso_tile.jai";
 
 // Named imports
