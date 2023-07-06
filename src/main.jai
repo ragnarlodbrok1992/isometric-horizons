@@ -68,6 +68,9 @@ main :: () {
   // @TODO: initializing fonts I think we should be doing here
   // use function get_font_at_size
 
+  // Loading shaders
+  shaders_program_id := load_shaders();
+
   // Defering stuff
   defer SDL_DestroyWindow(MAIN_ENGINE_WINDOW);
   defer SDL_Quit();
